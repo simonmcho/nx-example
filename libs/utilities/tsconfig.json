@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "declaration": true,
+    "jsx": "react",
+    "removeComments": true,
+    "importHelpers": true,
+    "noEmit": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noImplicitReturs": false,
+    "noFallthroughCasesInSwitch": true,
+    "target": "es2015",
+    "lib": ["es2015", "dom"],
+    "sourceMap": true,
+    "skipLibCheck": false,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "paths": {
+      "@lib": ["src/lib"]
+    }
+  },
+  "files": [],
+  "include": [],
+  "exclude": ["node_modules", "tmp"],
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
+}
